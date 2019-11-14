@@ -1,0 +1,117 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/tab1/page_one/page_one",
+		    "style" : {
+				"navigationBarBackgroundColor":"#f9d770",
+				"navigationBarTitleText":"朋友",
+				"app-plus": {
+				    "bounce": "vertical",
+				    "titleNView": {
+				        "buttons": [{
+				            "text": "\ue563",
+				            "fontSrc": "/static/uni.ttf",
+				            "fontSize": "22px",
+				            "color": "#FFFFFF"
+				        }]
+				    }
+				}
+			}
+		}
+		,{
+            "path" : "pages/tab2/page_two/page_two",
+            "style" : {
+            	"navigationBarBackgroundColor":"#f9d770",
+            	"navigationBarTitleText":"主页",
+            	"app-plus": {
+            	    "bounce": "vertical",
+            	    "titleNView": {
+            	        "buttons": [{
+            	            "text": "\ue563",
+            	            "fontSrc": "/static/uni.ttf",
+            	            "fontSize": "22px",
+            	            "color": "#FFFFFF"
+            	        }]
+            	    }
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/tab3/page_three/page_three",
+            "style" : {
+            	"navigationBarBackgroundColor":"#f9d770",
+            	"navigationBarTitleText":"个人",
+            	"app-plus": {
+            	    "bounce": "vertical",
+            	    "titleNView": {
+            	        "buttons": [{
+            	            "text": "\ue563",
+            	            "fontSrc": "/static/uni.ttf",
+            	            "fontSize": "22px",
+            	            "color": "#FFFFFF"
+            	        }]
+            	    }
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/tab4/page_four/page_four",
+            "style" : {
+            	"navigationBarBackgroundColor":"#f9d770",
+            	"navigationBarTitleText":"设置",
+            	"app-plus": {
+            	    "bounce": "vertical",
+            	    "titleNView": {
+            	        "buttons": [{
+            	            "text": "\ue563",
+            	            "fontSrc": "/static/uni.ttf",
+            	            "fontSize": "22px",
+            	            "color": "#FFFFFF"
+            	        }]
+            	    }
+            	}
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+		  "animationType": "pop-in"
+		}
+	},
+	"tabBar":{
+		"color": "#7A7E83",
+        "selectedColor": "#000000",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "height": "50px",
+        "fontSize": "10px",
+        "iconWidth": "24px",
+        "spacing": "3px",
+		"list":[{
+			"pagePath":"pages/tab1/page_one/page_one",
+			"iconPath":"static/friends_0.png",
+			"selectedIconPath":"static/friends_1.png",
+			"text":"朋友"
+		},{
+			"pagePath":"pages/tab2/page_two/page_two",
+			"iconPath":"static/main_0.png",
+			"selectedIconPath":"static/main_1.png",
+			"text":"主页"
+		},{
+			"pagePath":"pages/tab3/page_three/page_three",
+			"iconPath":"static/mine_0.png",
+			"selectedIconPath":"static/mine_1.png",
+			"text":"个人"
+		},{
+			"pagePath":"pages/tab4/page_four/page_four",
+			"iconPath":"static/setting_0.png",
+			"selectedIconPath":"static/setting_1.png",
+			"text":"设置"
+		}]
+	}
+	
+}
